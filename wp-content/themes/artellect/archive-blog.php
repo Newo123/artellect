@@ -291,14 +291,14 @@ get_header();
                 'order' => 'ASC'
               ));
             ?>
-              <a href="<?= get_permalink($post_id); ?>" class="article-preview border-gradient">
-                <div class="article-preview__image">
+              <div class="article-preview border-gradient">
+                <a href="<?= get_permalink($post_id); ?>" class="article-preview__image">
                   <?php if (has_post_thumbnail()): ?>
                     <img src="<?= get_the_post_thumbnail_url($post_id, 'full'); ?>" width="551" height="234" alt="<?= get_the_title(); ?>">
                   <?php else: ?>
                     <img src="<?= get_field('blog_anons_image', $post_id); ?>" width="551" height="234" alt="image">
                   <?php endif; ?>
-                </div>
+                </a>
                 <div class="article-preview__panel">
                   <?php if (!empty($categories) && !is_wp_error($categories)): ?>
                     <div class="article-preview__tags">
@@ -319,14 +319,14 @@ get_header();
                   <div class="article-preview__date">
                     <?= get_the_date('d.m.Y', $post_id); ?>
                   </div>
-                  <div class="article-preview__name">
+                  <a href="<?= get_permalink($post_id); ?>" class="article-preview__name">
                     <?= get_the_title($post_id); ?>
-                  </div>
+                  </a>
                   <div class="article-preview__descr">
                     <?= get_the_excerpt($post_id); ?>
                   </div>
                 </div>
-              </a>
+              </div>
             <?php endwhile; ?>
 
             <?php wp_reset_postdata(); ?>
@@ -366,10 +366,10 @@ get_header();
               'order' => 'ASC'
             ));
           ?>
-            <a href="<?= get_permalink($post_id); ?>" class="article-preview border-gradient">
-              <div class="article-preview__image">
+            <div class="article-preview border-gradient">
+              <a href="<?= get_permalink($post_id); ?>" class="article-preview__image">
                 <img src="<?= get_field('blog_anons_image', $post_id); ?>" width="551" height="234" alt="image">
-              </div>
+              </a>
               <div class="article-preview__panel">
                 <?php if (!empty($categories) && !is_wp_error($categories)): ?>
                   <div class="article-preview__tags">
@@ -390,14 +390,14 @@ get_header();
                 <div class="article-preview__date">
                   <?= get_the_date('d.m.Y', $post_id); ?>
                 </div>
-                <div class="article-preview__name">
+                <a href="<?= get_permalink($post_id); ?>" class="article-preview__name">
                   <?= get_the_title($post_id); ?>
-                </div>
+                </a>
                 <div class="article-preview__descr">
                   <?= get_the_excerpt($post_id); ?>
                 </div>
               </div>
-            </a>
+            </div>
           <?php endforeach; ?>
         </div>
         <div class="art-news__more">
@@ -416,7 +416,7 @@ get_header();
   ?>
     <section class="art-ad">
       <?php if ($advertising_image): ?>
-        <a href="<?= $advertising_href; ?>">
+        <a href="<?= $advertising_href; ?>" class="art-ad__advertising">
           <img src="<?= $advertising_image; ?>" alt="advertising">
         </a>
       <?php else: ?>
@@ -453,10 +453,10 @@ get_header();
               'order' => 'ASC'
             ));
           ?>
-            <a href="<?= get_permalink($post_id); ?>" class="article-preview border-gradient">
-              <div class="article-preview__image">
+            <div class="article-preview border-gradient">
+              <a href="<?= get_permalink($post_id); ?>" class="article-preview__image">
                 <img src="<?= get_field('blog_anons_image', $post_id); ?>" width="551" height="234" alt="image">
-              </div>
+              </a>
               <div class="article-preview__panel">
                 <?php if (!empty($categories) && !is_wp_error($categories)): ?>
                   <div class="article-preview__tags">
@@ -477,14 +477,14 @@ get_header();
                 <div class="article-preview__date">
                   <?= get_the_date('d.m.Y', $post_id); ?>
                 </div>
-                <div class="article-preview__name">
+                <a href="<?= get_permalink($post_id); ?>" class="article-preview__name">
                   <?= get_the_title($post_id); ?>
-                </div>
+                </a>
                 <div class="article-preview__descr">
                   <?= get_the_excerpt($post_id); ?>
                 </div>
               </div>
-            </a>
+            </div>
           <?php endforeach; ?>
         </div>
         <div class="art-news__more">
