@@ -393,7 +393,7 @@ get_header();
   ?>
   <section class="art-ad">
     <?php if ($advertising_image): ?>
-      <a href="<?= $advertising_href; ?>">
+      <a href="<?= $advertising_href; ?>" class="art-ad__advertising">
         <img src="<?= $advertising_image; ?>" alt="advertising">
       </a>
     <?php else: ?>
