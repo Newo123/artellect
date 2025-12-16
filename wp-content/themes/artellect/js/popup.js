@@ -23,6 +23,8 @@ class Popup {
 	load() {
 		fetch(this.url).then(async req => {
 			const res = await req.text();
+
+			console.log(res);
 			this.popup = new DOMParser()
 				.parseFromString(res, 'text/html')
 				.querySelector('.popup');

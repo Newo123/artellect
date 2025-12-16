@@ -1,7 +1,17 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
+<?php
+define('SHORTINIT', true);
+
+$theme_dir = dirname(__DIR__);
+$theme_dir_name = basename($theme_dir);
+
+$site_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]";
+
+$custom_theme_uri = $site_url . '/wp-content/themes/' . $theme_dir_name;
+
+require_once($_SERVER['DOCUMENT_ROOT'] . '/wp-load.php');
 
 $title = $_GET['title'] ?? 'Заполните заявку';
-$subtitle = $_GET['subtitle'] ?? 'для подробного аудита'
+$subtitle = $_GET['subtitle'] ?? 'для подробного аудита';
 ?>
 
 <div class="discount-popup popup">
@@ -19,8 +29,8 @@ $subtitle = $_GET['subtitle'] ?? 'для подробного аудита'
             </div>
             <form class="request-card__form"
               method="POST"
-              data-send="<?= get_template_directory_uri(); ?>/callback/callback.php?template=callback"
-              data-hash="<?= get_template_directory_uri(); ?>/callback/get_hash.php">
+              data-send="<?= $custom_theme_uri; ?>/callback/callback.php?template=callback"
+              data-hash="<?= $custom_theme_uri; ?>/callback/get_hash.php">
               <div class="request-card__form-row">
                 <div class="form-area border-rainbow" data-atropos-offset="4">
                   <input type="text" class="form-area__input" placeholder="Введите ваше имя" name="name" required>
@@ -31,7 +41,7 @@ $subtitle = $_GET['subtitle'] ?? 'для подробного аудита'
                 </div>
               </div>
               <div class="request-card__form-row">
-                <p class="policy-agree">Нажимая на кнопку я даю свое информированное согласие на <a href="">обработку
+                <p class="policy-agree">Нажимая на кнопку я даю свое информированное согласие на <a href="/privacy">обработку
                     персональных данных</a>
                 </p>
                 <button type="submit" class="button-decore" data-atropos-offset="10">Заказать аудит</button>
@@ -39,7 +49,7 @@ $subtitle = $_GET['subtitle'] ?? 'для подробного аудита'
             </form>
             <div class="request-card__bg">
               <picture>
-                <source srcset="<?= get_template_directory_uri(); ?>/img/card-bg-dark.webp" type="image/webp"><img src="<?= get_template_directory_uri(); ?>/img/card-bg-dark.png" width="1126"
+                <source srcset="<?= $custom_theme_uri; ?>/img/card-bg-dark.webp" type="image/webp"><img src="<?= $custom_theme_uri; ?>/img/card-bg-dark.png" width="1126"
                   height="524" alt="card bg">
               </picture>
             </div>

@@ -379,23 +379,40 @@ get_header();
 
   <?php
   $team = get_field('service_3_team', $post->ID);
-  if (!empty($team)):
+
+  $valid_person_count = 0;
+  $total_team_count = 0;
+
+  if (!empty($team) && is_array($team)) {
+    $total_team_count = count($team);
+
+    foreach ($team as $item) {
+      if (!empty($item['service_3_team_person'])) {
+        $valid_person_count++;
+      }
+    }
+  }
+
+  if ($total_team_count > 0 && $valid_person_count == $total_team_count):
   ?>
     <section class="ads-team">
       <div class="ads-team__body container">
         <h2 class="ads-team__title section-title">Команда, которая будет работать над вашим проектом:</h2>
         <div class="ads-team__cards">
-          <?php foreach ($team as $item): ?>
+          <?php foreach ($team as $item):
+            // Здесь дополнительная проверка не нужна, так как мы уже убедились, что все валидны
+            $person_id = $item['service_3_team_person']->ID ?? $item['service_3_team_person']; // Получаем ID
+          ?>
             <div class="ads-team__card border-gradient">
               <div class="ads-team__card-image">
-                <img src="<?= get_field('employee_art', $item['service_3_team_person']->ID); ?>" width="586" height="338" alt="art image">
+                <img src="<?= get_field('employee_art', $person_id); ?>" width="586" height="338" alt="art image">
               </div>
               <div class="ads-team__card-icon">
                 <img src="<?= get_template_directory_uri(); ?>/img/logo-icon.svg" width="24" height="24" alt="icon">
               </div>
-              <div class="ads-team__card-name"><?= get_field('employee_job', $item['service_3_team_person']->ID); ?></div>
+              <div class="ads-team__card-name"><?= get_field('employee_job', $person_id); ?></div>
               <div class="ads-team__card-text">
-                <p class="ads-team__card-subtitle"><?= get_field('employee_job', $item['service_3_team_person']->ID); ?></p>
+                <p class="ads-team__card-subtitle"><?= get_field('employee_job', $person_id); ?></p>
                 <p class="ads-team__card-descr"><?= $item['service_3_team_text']; ?></p>
               </div>
             </div>

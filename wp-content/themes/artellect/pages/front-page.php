@@ -103,7 +103,7 @@ get_header();
           </div>
           <div class="art-about__adv-item">
             <div class="art-about__adv-value gradient-text">↗300</div>
-            <div class="art-about__adv-text">реализованых проектов</div>
+            <div class="art-about__adv-text">реализованных проектов</div>
           </div>
           <div class="art-about__adv-item">
             <div class="art-about__adv-value gradient-text">20+</div>
@@ -265,7 +265,7 @@ get_header();
               </li>
               <li>
                 <img src="<?= get_template_directory_uri(); ?>/img/icons/check-dotted.svg" width="16" height="12" alt="check icon">
-                проверенные инстурменты
+                проверенные инструменты
               </li>
               <li>
                 <img src="<?= get_template_directory_uri(); ?>/img/icons/check-dotted.svg" width="16" height="12" alt="check icon">
@@ -281,7 +281,7 @@ get_header();
               <p><b>В проекте задействованы:</b> проджект-маркетолог и специалисты по трафику и лидогенерации.
               </p>
               <p><b>Кому подходит:</b> <br>
-                малому бизнесу, микробизнесу, экспертам с не большим маркетинговым бюджетом.
+                малому бизнесу, микробизнесу, экспертам с небольшим маркетинговым бюджетом.
                 Для продуктов с невысокой ценой
                 и быстрым принятием решения</p>
             </div>
@@ -546,7 +546,7 @@ get_header();
         <div class="art-about__ceo-citation-icon">
           <img src="<?= get_template_directory_uri(); ?>/img/icons/quotes-end.svg" width="24" height="24" alt="quote">
         </div>
-        <div class="art-about__ceo-name gradient-text">Елена Соловьева, СЕО</div>
+        <div class="art-about__ceo-name gradient-text">Елена Соловьева, CBDO</div>
       </div>
     </div>
   </section>
@@ -1327,6 +1327,7 @@ get_header();
                   <button type="button" class="button-decore open-popup" data-popup="<?= get_template_directory_uri(); ?>/includes/popup.php"
                     data-atropos-offset="10">Загрузить новую
                     реальность</button>
+
                 </div>
               </div>
               <div class="request-card__bg">

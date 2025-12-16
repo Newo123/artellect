@@ -19,6 +19,7 @@ if ($directions && !is_wp_error($directions)):
           $services_args = array(
             'post_type' => 'services',
             'posts_per_page' => -1,
+            'post_status'    => array('publish', 'pending'),
             'tax_query' => array(
               array(
                 'taxonomy' => 'direction',
@@ -47,7 +48,9 @@ if ($directions && !is_wp_error($directions)):
               foreach ($services->posts as $post):
                 setup_postdata($post);
               ?>
-                <a href="<?php the_permalink(); ?>" class="grid-item-link">
+                <a href="<?php if ($post->post_status != 'pending') {
+                            the_permalink();
+                          } ?>" class="grid-item-link">
                   <span class="grid-item-link-text"><?php the_title(); ?></span>
                   <div class="grid-item-link-arrows">
                     <svg class="arrow" width="15" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
