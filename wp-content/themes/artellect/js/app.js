@@ -926,8 +926,8 @@ initSwiper('.em-callcenter__slider', {
 initSwiper('.art-clients__slider', {
    slidesPerView: 'auto',
    spaceBetween: 24,
-   watchOverflow: true,
    loop: true,
+   loopAdditionalSlides: 2,
    speed: 2000,
    autoplay: { delay: 0, disableOnInteraction: false },
 });
@@ -1244,4 +1244,43 @@ document.addEventListener('DOMContentLoaded', () => {
          }
       });
    });
+});
+document.addEventListener('DOMContentLoaded', () => {
+   const DURATION = 3000; // 3 секунды
+
+   const observer = new IntersectionObserver((entries, obs) => {
+      entries.forEach(entry => {
+         if (!entry.isIntersecting) return;
+
+         const el = entry.target;
+         obs.unobserve(el); // запуск только один раз
+
+         const startValue = parseInt(el.textContent, 10);
+         const match = el.id.match(/_(\d+)$/);
+         if (!match) return;
+
+         const endValue = parseInt(match[1], 10);
+         const startTime = performance.now();
+
+         function animate(time) {
+            const progress = Math.min((time - startTime) / DURATION, 1);
+            const currentValue = Math.round(
+               startValue + (endValue - startValue) * progress
+            );
+
+            el.textContent = currentValue + '%';
+            el.style.setProperty('--p', currentValue);
+
+            if (progress < 1) {
+               requestAnimationFrame(animate);
+            }
+         }
+
+         requestAnimationFrame(animate);
+      });
+   }, {
+      threshold: 0.5
+   });
+
+   document.querySelectorAll('.pie.animate').forEach(el => observer.observe(el));
 });

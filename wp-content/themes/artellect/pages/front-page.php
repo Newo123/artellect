@@ -4,7 +4,6 @@
  * Template Name: Шаблон страницы Главная
  */
 
-
 get_header();
 
 ?>
@@ -1490,6 +1489,187 @@ get_header();
       <img src="<?= get_template_directory_uri(); ?>/img/home/game.gif" width="1920" height="1061" alt="gif" loading="lazy">
     </div>
   </section>
+
+  <section id="main_steps_screen_block">
+
+    <div id="main_steps_screen_block_topbg"><br></div>
+
+    <div class="cl0"><br></div>
+
+    <div class="screen_block_wcont">
+
+      <h2>
+        Семь простых шагов работы с нами
+      </h2>
+
+
+      <div id="main_steps_screen_block_list_container">
+        <div id="main_steps_screen_block_list_container_cont_item_1" class="main_steps_screen_block_list_container_cont_item">
+          <div class="main_steps_screen_block_list_container_cont_item_ico" id="main_steps_screen_block_list_container_cont_item_1_ico"><br></div>
+          <div class="main_steps_screen_block_list_container_cont_item_header">
+            Заявка на результативный
+            маркетинг
+          </div>
+          <div class="main_steps_screen_block_list_container_cont_item_txt">
+            Просто заполните форму ниже, мы свяжемся
+            в течение 5 минут
+          </div>
+        </div>
+
+        <div id="main_steps_screen_block_list_container_cont_item_2" class="main_steps_screen_block_list_container_cont_item">
+          <div class="main_steps_screen_block_list_container_cont_item_ico" id="main_steps_screen_block_list_container_cont_item_2_ico"><br></div>
+          <div class="main_steps_screen_block_list_container_cont_item_header">
+            Интервью и аудит
+          </div>
+          <div class="main_steps_screen_block_list_container_cont_item_txt">
+            Наш специалист проведет мини-интервью
+            для понимания целей и потребностей.
+            При необходимости проведем полномасштабный
+            аудит.
+          </div>
+        </div>
+
+        <div class="cl0"><br></div>
+
+        <div id="main_steps_screen_block_list_container_cont_item_3" class="main_steps_screen_block_list_container_cont_item">
+          <div class="main_steps_screen_block_list_container_cont_item_ico" id="main_steps_screen_block_list_container_cont_item_3_ico"><br></div>
+          <div class="main_steps_screen_block_list_container_cont_item_header">
+            Коммерческое предложение
+          </div>
+          <div class="main_steps_screen_block_list_container_cont_item_txt">
+            Оформим коммерческое предложение с планом
+            работ и экономической моделью.
+            Для обсуждения условий с вами свяжется
+            маркетолог, который в дальнейшем будет
+            вести ваш проект.
+          </div>
+        </div>
+
+        <div id="main_steps_screen_block_list_container_cont_item_4" class="main_steps_screen_block_list_container_cont_item">
+          <div class="main_steps_screen_block_list_container_cont_item_ico" id="main_steps_screen_block_list_container_cont_item_4_ico"><br></div>
+          <div class="main_steps_screen_block_list_container_cont_item_header">
+            Заключение договора<br>
+            и оплата счета
+          </div>
+          <div class="main_steps_screen_block_list_container_cont_item_txt">
+            Договор на маркетинговые услуги и счет
+            на оплату подготовим в кратчайшее время.
+          </div>
+        </div>
+
+        <div class="cl0"><br></div>
+
+        <div id="main_steps_screen_block_list_container_cont_item_5" class="main_steps_screen_block_list_container_cont_item">
+          <div class="main_steps_screen_block_list_container_cont_item_ico" id="main_steps_screen_block_list_container_cont_item_5_ico"><br></div>
+          <div class="main_steps_screen_block_list_container_cont_item_header">
+            Воплощение<br>
+            результативного маркетинга
+          </div>
+          <div class="main_steps_screen_block_list_container_cont_item_txt">
+            Маркетолог проекта формирует команду
+            из специалистов digital-агентства Artellect
+            и начинает рабочий процесс.
+          </div>
+        </div>
+
+        <div id="main_steps_screen_block_list_container_cont_item_6" class="main_steps_screen_block_list_container_cont_item">
+          <div class="main_steps_screen_block_list_container_cont_item_ico" id="main_steps_screen_block_list_container_cont_item_6_ico"><br></div>
+          <div class="main_steps_screen_block_list_container_cont_item_header">
+            Контроль качества
+          </div>
+          <div class="main_steps_screen_block_list_container_cont_item_txt">
+            Вы сможете отслеживать статистику
+            на специально созданном для вашего проекта
+            Дашборде (странице с показателями отчетности).
+            Интернет-маркетолог пояснит показатели
+            по желанию. Ежемесячно Вы будете получать отчет
+            о всех выполненных работах, выводы, прогноз
+            на будущее и рациональные предложения команды.
+          </div>
+        </div>
+
+        <div class="cl0"><br></div>
+
+        <div id="main_steps_screen_block_list_container_cont_item_7" class="main_steps_screen_block_list_container_cont_item">
+          <div class="main_steps_screen_block_list_container_cont_item_ico" id="main_steps_screen_block_list_container_cont_item_7_ico"><br></div>
+          <div class="main_steps_screen_block_list_container_cont_item_header">
+            Результат:<br><br>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <div id="main_steps_screen_block_graph">
+      <div id="main_steps_screen_block_graph_money" style="margin-top: 50px;"><br></div>
+      <div id="main_steps_screen_block_graph_kpi">
+        <div id="main_steps_screen_block_graph_kpi_txt">KPI</div>
+        <div id="main_steps_screen_block_graph_kpi_90" class="pie animate" style="--p:53">53%</div>
+        <div id="main_steps_screen_block_graph_kpi_45" class="pie animate" style="--p:24">24%</div>
+        <div id="main_steps_screen_block_graph_kpi_87" class="pie animate" style="--p:42">42%</div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="ads-stages ads-stages--home">
+        <div class="ads-stages__body container">
+          <h2 class="ads-stages__title section-title">Как мы делаем <br> креативный digital-marketing?</h2>
+          <div class="ads-stages__content">
+            <div class="ads-stages__slider swiper">
+              <div class="swiper-wrapper">
+                  <div class="ads-stages__slide swiper-slide border-gradient">
+                    <div class="ads-stages__icon" data-swiper-parallax="-200"
+                      data-swiper-parallax-duration="800">
+                      <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="165" height="150" alt="icon">
+                    </div>
+                    <div class="ads-stages__info">
+                      <div class="ads-stages__name" data-swiper-parallax="-200"
+                        data-swiper-parallax-duration="1000">Работаем, как инхаус-команда</div>
+                        <div class="ads-stages__text" data-swiper-parallax="-200"
+                          data-swiper-parallax-duration="1200">Глубоко погружаемся в специфику бизнеса на уровне штатного отдела.</div>
+                    </div>
+                  </div>
+                  <div class="ads-stages__slide swiper-slide border-gradient">
+                    <div class="ads-stages__icon" data-swiper-parallax="-200"
+                      data-swiper-parallax-duration="800">
+                      <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="165" height="150" alt="icon">
+                    </div>
+                    <div class="ads-stages__info">
+                      <div class="ads-stages__name" data-swiper-parallax="-200"
+                        data-swiper-parallax-duration="1000">Внедряем HADI-циклы</div>
+                        <div class="ads-stages__text" data-swiper-parallax="-200"
+                          data-swiper-parallax-duration="1200">Предпочитаем короткие итерации, формулируем гипотезы, собираем данные, проверяем на практике,
+                           делаем выводы и повторяем для достижения результата.</div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="ads-stages__panel">
+              <div class="ads-stages__buttons">
+                <button class="ads-stages__slider-prev slider-prev border-gradient">
+                  <svg>
+                    <use xlink:href="#icon-arrow-left"></use>
+                  </svg>
+                </button>
+                <button class="ads-stages__slider-next slider-next border-gradient">
+                  <svg>
+                    <use xlink:href="#icon-arrow-right"></use>
+                  </svg>
+                </button>
+              </div>
+              <div class="ads-stages__fraction"></div>
+            </div>
+            <div class="ads-stages__content-bg">
+                <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="491" height="446" alt="icon">
+                <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="491" height="446" alt="icon">
+            </div>
+          </div>
+        </div>
+      </section>
 
   <?php get_template_part('template-parts/reviews'); ?>
 
