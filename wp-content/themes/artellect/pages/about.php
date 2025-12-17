@@ -353,10 +353,14 @@ get_header();
         <h2 class="art-team__title section-title">Команда Artellect</h2>
         <div class="art-team__slider swiper full-width">
           <div class="art-team__slider-wrapper swiper-wrapper">
-            <?php foreach ($employee as $item): ?>
+            <?php foreach ($employee as $item):
+              $image = get_field('employee_image', $item->ID);
+
+              if (!$image) continue;
+            ?>
               <div class="art-team__slide swiper-slide border-gradient">
                 <div class="art-team__slide-photo">
-                  <img src="<?= get_field('employee_image', $item->ID); ?>" width="311" height="366" alt="<?= get_field('employee_fio', $item->ID); ?>">
+                  <img src="<?= $image; ?>" width="311" height="366" alt="<?= get_field('employee_fio', $item->ID); ?>">
                   <div class="art-team__slide-photo-bg">
                     <img src="<?= get_template_directory_uri(); ?>/img/about/teammate-bg.gif" width="408" height="366" alt="gif">
                   </div>
