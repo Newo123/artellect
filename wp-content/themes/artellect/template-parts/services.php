@@ -48,18 +48,25 @@ if ($directions && !is_wp_error($directions)):
               foreach ($services->posts as $post):
                 setup_postdata($post);
               ?>
-                <a href="<?php if ($post->post_status != 'pending') {
-                            the_permalink();
-                          } ?>" class="grid-item-link">
-                  <span class="grid-item-link-text"><?php the_title(); ?></span>
-                  <div class="grid-item-link-arrows">
-                    <svg class="arrow" width="15" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 1L13 13L1 25" stroke="#F74E1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <svg class="arrow-hover" width="15" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M1 1L13 13L1 25" stroke="#F74E1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                  </div>
+                <?php if ($post->post_status != 'pending') {
+                  echo '<a href="' . get_permalink() . '" class="grid-item-link">';
+                } else {
+                  echo '<div class="grid-item-link">';
+                } ?>
+                <span class="grid-item-link-text"><?php the_title(); ?></span>
+                <div class="grid-item-link-arrows">
+                  <svg class="arrow" width="15" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L13 13L1 25" stroke="#F74E1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                  <svg class="arrow-hover" width="15" height="26" viewBox="0 0 14 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L13 13L1 25" stroke="#F74E1B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </div>
+                <?php if ($post->post_status != 'pending') {
+                  echo '</a>';
+                } else {
+                  echo '</div>';
+                } ?>
                 </a>
               <?php
               endforeach;
