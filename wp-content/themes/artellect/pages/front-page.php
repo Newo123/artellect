@@ -1616,52 +1616,6 @@ get_header();
   </section>
 
   <section class="ads-stages ads-stages--home">
-<<<<<<< Updated upstream
-        <div class="ads-stages__body container">
-          <h2 class="ads-stages__title section-title">Как мы делаем <br> креативный digital-marketing?</h2>
-          <div class="ads-stages__content">
-            <div class="ads-stages__slider swiper">
-              <div class="swiper-wrapper">
-                  <div class="ads-stages__slide swiper-slide border-gradient">
-                    <div class="ads-stages__icon" data-swiper-parallax="-200"
-                      data-swiper-parallax-duration="800">
-                      <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="165" height="150" alt="icon">
-                    </div>
-                    <div class="ads-stages__info">
-                      <div class="ads-stages__name" data-swiper-parallax="-200"
-                        data-swiper-parallax-duration="1000">Работаем, как инхаус-команда</div>
-                        <div class="ads-stages__text" data-swiper-parallax="-200"
-                          data-swiper-parallax-duration="1200">Глубоко погружаемся в специфику бизнеса на уровне штатного отдела.</div>
-                    </div>
-                  </div>
-                  <div class="ads-stages__slide swiper-slide border-gradient">
-                    <div class="ads-stages__icon" data-swiper-parallax="-200"
-                      data-swiper-parallax-duration="800">
-                      <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="165" height="150" alt="icon">
-                    </div>
-                    <div class="ads-stages__info">
-                      <div class="ads-stages__name" data-swiper-parallax="-200"
-                        data-swiper-parallax-duration="1000">Внедряем HADI-циклы</div>
-                        <div class="ads-stages__text" data-swiper-parallax="-200"
-                          data-swiper-parallax-duration="1200">Предпочитаем короткие итерации, формулируем гипотезы, собираем данные, проверяем на практике,
-                           делаем выводы и повторяем для достижения результата.</div>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            <div class="ads-stages__panel">
-              <div class="ads-stages__buttons">
-                <button class="ads-stages__slider-prev slider-prev border-gradient">
-                  <svg>
-                    <use xlink:href="#icon-arrow-left"></use>
-                  </svg>
-                </button>
-                <button class="ads-stages__slider-next slider-next border-gradient">
-                  <svg>
-                    <use xlink:href="#icon-arrow-right"></use>
-                  </svg>
-                </button>
-=======
     <div class="ads-stages__body container">
       <h2 class="ads-stages__title section-title">Как мы делаем <br> креативный digital-marketing?</h2>
       <div class="ads-stages__content">
@@ -1690,13 +1644,12 @@ get_header();
                 <div class="ads-stages__text" data-swiper-parallax="-200"
                   data-swiper-parallax-duration="1200">Предпочитаем короткие итерации, формулируем гипотезы, собираем данные, проверяем на практике,
                   делаем выводы и повторяем для достижения результата.</div>
->>>>>>> Stashed changes
               </div>
               <div class="ads-stages__fraction"></div>
             </div>
             <div class="ads-stages__content-bg">
-                <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="491" height="446" alt="icon">
-                <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="491" height="446" alt="icon">
+              <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="491" height="446" alt="icon">
+              <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="491" height="446" alt="icon">
             </div>
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
@@ -1707,8 +1660,10 @@ get_header();
                 <div class="ads-stages__name" data-swiper-parallax="-200"
                   data-swiper-parallax-duration="1000">Применяем Growth Hacking</div>
                 <div class="ads-stages__text" data-swiper-parallax="-200"
-                  data-swiper-parallax-duration="1200"><p>Отметим факт, что универсальных инструментов для любой отрасли и конкретного бизнеса не существует. Если «взлетело» у других, это не значит, что так же успешно будет работать в вашем случае.</p>
-                  <p>Что делать? Тут нам помогает подход по «взлому роста» - быстрый MVP тест на уровне простого прототипа с минимальными затратами. Так мы поймем, что работает, а что нет.</p></div>
+                  data-swiper-parallax-duration="1200">
+                  <p>Отметим факт, что универсальных инструментов для любой отрасли и конкретного бизнеса не существует. Если «взлетело» у других, это не значит, что так же успешно будет работать в вашем случае.</p>
+                  <p>Что делать? Тут нам помогает подход по «взлому роста» - быстрый MVP тест на уровне простого прототипа с минимальными затратами. Так мы поймем, что работает, а что нет.</p>
+                </div>
               </div>
             </div>
             <div class="ads-stages__slide swiper-slide border-gradient">
@@ -1833,7 +1788,7 @@ get_header();
             </div>
           </div>
         </div>
-      </section>
+  </section>
 
   <?php get_template_part('template-parts/reviews'); ?>
 
