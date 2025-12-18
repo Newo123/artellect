@@ -802,7 +802,10 @@ function initSwiper(selector, options, fractionSelector = null) {
 document.addEventListener('DOMContentLoaded', () => {
    const bgContainer = document.querySelector('.ads-stages__content-bg');
    if (!bgContainer) return;
+
    const bgImages = bgContainer.querySelectorAll('img');
+   const fractionEl = document.querySelector('.ads-stages__fraction');
+
    const swiper = new Swiper('.ads-stages__slider', {
       slidesPerView: 1,
       spaceBetween: 24,
@@ -823,18 +826,31 @@ document.addEventListener('DOMContentLoaded', () => {
       on: {
          init(swiper) {
             updateActiveBg(swiper.activeIndex);
+            updateFraction(swiper);
          },
          slideChange(swiper) {
             updateActiveBg(swiper.activeIndex);
+            updateFraction(swiper);
          },
       },
    });
+
    function updateActiveBg(index) {
       bgImages.forEach((img, i) => {
          img.classList.toggle('active', i === index);
       });
    }
+
+   function updateFraction(swiper) {
+      if (!fractionEl) return;
+
+      const current = swiper.realIndex + 1;
+      const total = swiper.slides.length;
+
+      fractionEl.textContent = `${current}/${total}`;
+   }
 });
+
 initSwiper(
    '.art-testimonials__slider',
    {
