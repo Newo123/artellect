@@ -102,7 +102,7 @@ get_header();
           </div>
           <div class="art-about__adv-item">
             <div class="art-about__adv-value gradient-text">↗300</div>
-            <div class="art-about__adv-text">реализованных проектов</div>
+            <div class="art-about__adv-text">реализованых проектов</div>
           </div>
           <div class="art-about__adv-item">
             <div class="art-about__adv-value gradient-text">20+</div>
@@ -264,7 +264,7 @@ get_header();
               </li>
               <li>
                 <img src="<?= get_template_directory_uri(); ?>/img/icons/check-dotted.svg" width="16" height="12" alt="check icon">
-                проверенные инструменты
+                проверенные инстурменты
               </li>
               <li>
                 <img src="<?= get_template_directory_uri(); ?>/img/icons/check-dotted.svg" width="16" height="12" alt="check icon">
@@ -280,7 +280,7 @@ get_header();
               <p><b>В проекте задействованы:</b> проджект-маркетолог и специалисты по трафику и лидогенерации.
               </p>
               <p><b>Кому подходит:</b> <br>
-                малому бизнесу, микробизнесу, экспертам с небольшим маркетинговым бюджетом.
+                малому бизнесу, микробизнесу, экспертам с не большим маркетинговым бюджетом.
                 Для продуктов с невысокой ценой
                 и быстрым принятием решения</p>
             </div>
@@ -545,7 +545,7 @@ get_header();
         <div class="art-about__ceo-citation-icon">
           <img src="<?= get_template_directory_uri(); ?>/img/icons/quotes-end.svg" width="24" height="24" alt="quote">
         </div>
-        <div class="art-about__ceo-name gradient-text">Елена Соловьева, CBDO</div>
+        <div class="art-about__ceo-name gradient-text">Елена Соловьева, СЕО</div>
       </div>
     </div>
   </section>
@@ -771,8 +771,8 @@ get_header();
               <div class="ads-calculator__label gradient-text">Сколько лидов (обращений) сможете обработать?
                 <span class="tips">
                   <span class="tips__btn">?</span>
-                  <div class="tips__message">Укажите объем лидов, который вы сможете обработать в течение
-                    месяца</div>
+                  <span class="tips__message">Укажите объем лидов, который вы сможете обработать в течение
+                    месяца</span>
                 </span>
               </div>
               <div class="border-gradient">
@@ -1326,7 +1326,6 @@ get_header();
                   <button type="button" class="button-decore open-popup" data-popup="<?= get_template_directory_uri(); ?>/includes/popup.php"
                     data-atropos-offset="10">Загрузить новую
                     реальность</button>
-
                 </div>
               </div>
               <div class="request-card__bg">
@@ -1617,6 +1616,52 @@ get_header();
   </section>
 
   <section class="ads-stages ads-stages--home">
+<<<<<<< Updated upstream
+        <div class="ads-stages__body container">
+          <h2 class="ads-stages__title section-title">Как мы делаем <br> креативный digital-marketing?</h2>
+          <div class="ads-stages__content">
+            <div class="ads-stages__slider swiper">
+              <div class="swiper-wrapper">
+                  <div class="ads-stages__slide swiper-slide border-gradient">
+                    <div class="ads-stages__icon" data-swiper-parallax="-200"
+                      data-swiper-parallax-duration="800">
+                      <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="165" height="150" alt="icon">
+                    </div>
+                    <div class="ads-stages__info">
+                      <div class="ads-stages__name" data-swiper-parallax="-200"
+                        data-swiper-parallax-duration="1000">Работаем, как инхаус-команда</div>
+                        <div class="ads-stages__text" data-swiper-parallax="-200"
+                          data-swiper-parallax-duration="1200">Глубоко погружаемся в специфику бизнеса на уровне штатного отдела.</div>
+                    </div>
+                  </div>
+                  <div class="ads-stages__slide swiper-slide border-gradient">
+                    <div class="ads-stages__icon" data-swiper-parallax="-200"
+                      data-swiper-parallax-duration="800">
+                      <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="165" height="150" alt="icon">
+                    </div>
+                    <div class="ads-stages__info">
+                      <div class="ads-stages__name" data-swiper-parallax="-200"
+                        data-swiper-parallax-duration="1000">Внедряем HADI-циклы</div>
+                        <div class="ads-stages__text" data-swiper-parallax="-200"
+                          data-swiper-parallax-duration="1200">Предпочитаем короткие итерации, формулируем гипотезы, собираем данные, проверяем на практике,
+                           делаем выводы и повторяем для достижения результата.</div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="ads-stages__panel">
+              <div class="ads-stages__buttons">
+                <button class="ads-stages__slider-prev slider-prev border-gradient">
+                  <svg>
+                    <use xlink:href="#icon-arrow-left"></use>
+                  </svg>
+                </button>
+                <button class="ads-stages__slider-next slider-next border-gradient">
+                  <svg>
+                    <use xlink:href="#icon-arrow-right"></use>
+                  </svg>
+                </button>
+=======
     <div class="ads-stages__body container">
       <h2 class="ads-stages__title section-title">Как мы делаем <br> креативный digital-marketing?</h2>
       <div class="ads-stages__content">
@@ -1625,7 +1670,7 @@ get_header();
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
-                <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="165" height="150" alt="icon">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="165" height="150" alt="icon">
               </div>
               <div class="ads-stages__info">
                 <div class="ads-stages__name" data-swiper-parallax="-200"
@@ -1637,7 +1682,7 @@ get_header();
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
-                <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="165" height="150" alt="icon">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="165" height="150" alt="icon">
               </div>
               <div class="ads-stages__info">
                 <div class="ads-stages__name" data-swiper-parallax="-200"
@@ -1645,32 +1690,150 @@ get_header();
                 <div class="ads-stages__text" data-swiper-parallax="-200"
                   data-swiper-parallax-duration="1200">Предпочитаем короткие итерации, формулируем гипотезы, собираем данные, проверяем на практике,
                   делаем выводы и повторяем для достижения результата.</div>
+>>>>>>> Stashed changes
+              </div>
+              <div class="ads-stages__fraction"></div>
+            </div>
+            <div class="ads-stages__content-bg">
+                <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="491" height="446" alt="icon">
+                <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="491" height="446" alt="icon">
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Применяем Growth Hacking</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200"><p>Отметим факт, что универсальных инструментов для любой отрасли и конкретного бизнеса не существует. Если «взлетело» у других, это не значит, что так же успешно будет работать в вашем случае.</p>
+                  <p>Что делать? Тут нам помогает подход по «взлому роста» - быстрый MVP тест на уровне простого прототипа с минимальными затратами. Так мы поймем, что работает, а что нет.</p></div>
+              </div>
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_4.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Строим Customer Journey Map</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200">Разрабатываем портреты целевой аудитории и строим путь клиента от формирования потребности до регулярных продаж. Начинаем работать с клиентом до того, как за него возьмутся конкуренты.</div>
+              </div>
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_5.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Внедряем гиперсегментацию</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200">Разделяем аудиторию на мини-сегменты и показываем каждому уникальное предложение. Получается эффективный таргетинг.</div>
+              </div>
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_6.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Строим автоворонки</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200">Запускаем рекламу на вашу ЦА, вовлекаем с помощью мессенджеров, конверсионных сайтов и индивидуальных предложений, в итоге получаем лиды (заявки). Подогреваем клиента повторно на будущие заказы. Процесс полностью автоматизирован!</div>
+              </div>
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_7.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Настраиваем чат-боты</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200">Снижаем нагрузку на call-центр и минимизируем риски упустить клиента. Клиент подогревается к продаже автоматически.</div>
+              </div>
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_8.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Внедряем CRM-маркетинг</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200">Все данные о клиенте будут собираться в CRM-системе, обрабатываться и сегментироваться для реализации дальнейших шагов по автоворонке.</div>
+              </div>
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_9.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Внедряем сквозную аналитику</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200">Вы будете видеть, не только откуда пришел клиент, что и сколько заказал, но и вклад источника трафика в валовую прибыль. Данные аналитики позволяют связать каналы лидогенерации, сайты, CRM и другие инструменты в единый информационный центр, а также принимать правильные решения по перераспределению бюджетов между каналами. Это не только ключевой, но и жизненно необходимый инструмент цифрового маркетинга.</div>
+              </div>
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_10.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Проведем A/B и мультитесты</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200">Мы выдвигаем и проверяем гипотезы на регулярной основе. Это помогает понять направление дальнейшего вложения ресурсов.</div>
+              </div>
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_11.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Строим unit-экономику и используем Data Driven</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200">Важно уметь считать стоимость каждого отдельного клиента, чтобы при росте затрат на маркетинг масштабировать прибыль, а не убытки.</div>
+              </div>
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_12.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Добиваемся синергии инструментов digital-маркетинга в бизнесе</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200">В согласованном и связанном комплексе все инструменты работают в 3-9 раз эффективнее, чем порознь.</div>
+              </div>
+            </div>
+            <div class="ads-stages__slide swiper-slide border-gradient">
+              <div class="ads-stages__icon" data-swiper-parallax="-200"
+                data-swiper-parallax-duration="800">
+                <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_13.png" width="165" height="150" alt="icon">
+              </div>
+              <div class="ads-stages__info">
+                <div class="ads-stages__name" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1000">Собираем и визуализируем данные в одном Дашборде</div>
+                <div class="ads-stages__text" data-swiper-parallax="-200"
+                  data-swiper-parallax-duration="1200">Вам не придется искать данные по множеству сервисов и получать неинформативные отчеты в Excel. Эффективность бизнеса собрана в одном месте.</div>
               </div>
             </div>
           </div>
         </div>
-        <div class="ads-stages__panel">
-          <div class="ads-stages__buttons">
-            <button class="ads-stages__slider-prev slider-prev border-gradient">
-              <svg>
-                <use xlink:href="#icon-arrow-left"></use>
-              </svg>
-            </button>
-            <button class="ads-stages__slider-next slider-next border-gradient">
-              <svg>
-                <use xlink:href="#icon-arrow-right"></use>
-              </svg>
-            </button>
-          </div>
-          <div class="ads-stages__fraction"></div>
-        </div>
-        <div class="ads-stages__content-bg">
-          <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="491" height="446" alt="icon">
-          <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="491" height="446" alt="icon">
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
   <?php get_template_part('template-parts/reviews'); ?>
 
