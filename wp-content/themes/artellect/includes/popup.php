@@ -57,5 +57,10 @@ $subtitle = $_GET['subtitle'] ?? 'для подробного аудита';
         </div>
       </div>
     </div>
+         <div class="popup__close">
+            <svg>
+            <use xlink:href="#icon-close"></use>
+            </svg>
+         </div>
   </div>
 </div>
