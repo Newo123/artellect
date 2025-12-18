@@ -1815,7 +1815,7 @@ get_header();
         <div class="ads-stages__content-bg">
           <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="491" height="446" alt="icon">
           <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="491" height="446" alt="icon">
-          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_3.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico.png" width="491" height="446" alt="icon">
           <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_4.png" width="491" height="446" alt="icon">
           <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_5.png" width="491" height="446" alt="icon">
           <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_6.png" width="491" height="446" alt="icon">
