@@ -1621,6 +1621,7 @@ get_header();
       <div class="ads-stages__content">
         <div class="ads-stages__slider swiper">
           <div class="swiper-wrapper">
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1633,6 +1634,7 @@ get_header();
                   data-swiper-parallax-duration="1200">Глубоко погружаемся в специфику бизнеса на уровне штатного отдела.</div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1645,12 +1647,8 @@ get_header();
                   data-swiper-parallax-duration="1200">Предпочитаем короткие итерации, формулируем гипотезы, собираем данные, проверяем на практике,
                   делаем выводы и повторяем для достижения результата.</div>
               </div>
-              <div class="ads-stages__fraction"></div>
             </div>
-            <div class="ads-stages__content-bg">
-              <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="491" height="446" alt="icon">
-              <img src="http://old.artellect.agency/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="491" height="446" alt="icon">
-            </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1666,6 +1664,7 @@ get_header();
                 </div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1678,6 +1677,7 @@ get_header();
                   data-swiper-parallax-duration="1200">Разрабатываем портреты целевой аудитории и строим путь клиента от формирования потребности до регулярных продаж. Начинаем работать с клиентом до того, как за него возьмутся конкуренты.</div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1690,6 +1690,7 @@ get_header();
                   data-swiper-parallax-duration="1200">Разделяем аудиторию на мини-сегменты и показываем каждому уникальное предложение. Получается эффективный таргетинг.</div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1702,6 +1703,7 @@ get_header();
                   data-swiper-parallax-duration="1200">Запускаем рекламу на вашу ЦА, вовлекаем с помощью мессенджеров, конверсионных сайтов и индивидуальных предложений, в итоге получаем лиды (заявки). Подогреваем клиента повторно на будущие заказы. Процесс полностью автоматизирован!</div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1714,6 +1716,7 @@ get_header();
                   data-swiper-parallax-duration="1200">Снижаем нагрузку на call-центр и минимизируем риски упустить клиента. Клиент подогревается к продаже автоматически.</div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1726,6 +1729,7 @@ get_header();
                   data-swiper-parallax-duration="1200">Все данные о клиенте будут собираться в CRM-системе, обрабатываться и сегментироваться для реализации дальнейших шагов по автоворонке.</div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1738,6 +1742,7 @@ get_header();
                   data-swiper-parallax-duration="1200">Вы будете видеть, не только откуда пришел клиент, что и сколько заказал, но и вклад источника трафика в валовую прибыль. Данные аналитики позволяют связать каналы лидогенерации, сайты, CRM и другие инструменты в единый информационный центр, а также принимать правильные решения по перераспределению бюджетов между каналами. Это не только ключевой, но и жизненно необходимый инструмент цифрового маркетинга.</div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1750,6 +1755,7 @@ get_header();
                   data-swiper-parallax-duration="1200">Мы выдвигаем и проверяем гипотезы на регулярной основе. Это помогает понять направление дальнейшего вложения ресурсов.</div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1762,6 +1768,7 @@ get_header();
                   data-swiper-parallax-duration="1200">Важно уметь считать стоимость каждого отдельного клиента, чтобы при росте затрат на маркетинг масштабировать прибыль, а не убытки.</div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1774,6 +1781,7 @@ get_header();
                   data-swiper-parallax-duration="1200">В согласованном и связанном комплексе все инструменты работают в 3-9 раз эффективнее, чем порознь.</div>
               </div>
             </div>
+
             <div class="ads-stages__slide swiper-slide border-gradient">
               <div class="ads-stages__icon" data-swiper-parallax="-200"
                 data-swiper-parallax-duration="800">
@@ -1786,8 +1794,41 @@ get_header();
                   data-swiper-parallax-duration="1200">Вам не придется искать данные по множеству сервисов и получать неинформативные отчеты в Excel. Эффективность бизнеса собрана в одном месте.</div>
               </div>
             </div>
+
           </div>
         </div>
+        <div class="ads-stages__panel">
+          <div class="ads-stages__buttons">
+            <button class="ads-stages__slider-prev slider-prev border-gradient">
+              <svg>
+                <use xlink:href="#icon-arrow-left"></use>
+              </svg>
+            </button>
+            <button class="ads-stages__slider-next slider-next border-gradient">
+              <svg>
+                <use xlink:href="#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="ads-stages__fraction"></div>
+        </div>
+        <div class="ads-stages__content-bg">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_1.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_2.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_3.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_4.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_5.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_6.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_7.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_8.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_9.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_10.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_11.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_12.png" width="491" height="446" alt="icon">
+          <img src="<?= get_template_directory_uri(); ?>/images/main_howwedo_screen_block_list_container_cont_item_ico_13.png" width="491" height="446" alt="icon">
+        </div>
+      </div>
+    </div>
   </section>
 
   <?php get_template_part('template-parts/reviews'); ?>
