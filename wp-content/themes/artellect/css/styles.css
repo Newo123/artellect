@@ -5434,10 +5434,6 @@ a.main_first_screen_ini_block_soc_item,
    position: relative;
    z-index: 10;
    padding-bottom: 124px;
-   background: linear-gradient(180deg,
-         #010b24 0%,
-         rgba(9, 47, 89, 1) 30%,
-         rgba(0, 82, 108, 0.3) 100%);
 }
 
 #main_quiz_screen_block h2 {
