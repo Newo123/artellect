@@ -1831,6 +1831,49 @@ get_header();
     </div>
   </section>
 
+  <section id="main_quiz_screen_block">
+
+    <div id="main_quiz_screen_block_r"><br></div>
+    <div id="main_quiz_screen_block_l"><br></div>
+
+    <div class="main_quiz_wcont">
+
+      <h2>
+        Какие digital услуги нужны
+        <br>
+        именно Вам?
+      </h2>
+
+      <div id="main_quiz_screen_block_quest" class="screen_parallax_item_block" style="margin-top: 52px;"><br></div>
+      <div id="main_quiz_screen_block_quest_mob"><br></div>
+      <div id="main_quiz_screen_block_wcont">
+
+        <div id="main_quiz_screen_block_txt_header">
+          Пройдите квиз и узнайте,<br>
+          как с выгодой инвестировать<br>
+          в Ваш маркетинг!
+        </div>
+
+        <div id="main_quiz_screen_block_txt">
+          Если у вас есть трудности с выбором, заполните
+          эту простую анкету и получите бесплатный расчет
+          Unit-экономики для вашего бизнеса
+        </div>
+        <div class="cl0"><br></div>
+
+        <div id="main_quiz_screen_block_aftertxt">
+          <div id="main_quiz_screen_block_aftertxt_btn" onclick="Marquiz.showModal('645268f56fc06c0025297c29')" class="glowblock">
+            Пройти квиз
+            <div class="glow-wrap">
+              <i class="glow"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
   <?php get_template_part('template-parts/reviews'); ?>
 
   <?php get_template_part('template-parts/partners'); ?>
