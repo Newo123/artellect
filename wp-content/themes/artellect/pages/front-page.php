@@ -545,7 +545,7 @@ get_header();
         <div class="art-about__ceo-citation-icon">
           <img src="<?= get_template_directory_uri(); ?>/img/icons/quotes-end.svg" width="24" height="24" alt="quote">
         </div>
-        <div class="art-about__ceo-name gradient-text">Елена Соловьева, СЕО</div>
+        <div class="art-about__ceo-name gradient-text">Елена Соловьева, CBDO</div>
       </div>
     </div>
   </section>
